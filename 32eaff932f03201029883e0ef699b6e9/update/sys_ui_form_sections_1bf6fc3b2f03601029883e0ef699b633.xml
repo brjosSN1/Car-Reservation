@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="1bf6fc3b2f03601029883e0ef699b633" sys_domain="global" table="x_458834_car_reser_vehicles" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-29 02:06:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bf6fc3b2f03601029883e0ef699b636</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_458834_car_reser_vehicles" name="x_458834_car_reser_vehicles" sys_domain="global" view="Default view">1bf6fc3b2f03601029883e0ef699b633</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_458834_car_reser_vehicles" sys_domain="global" view="Default view">0946f8f72f03601029883e0ef699b666</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-29 02:06:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-29 02:06:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>17f6fc3b2f03601029883e0ef699b637</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_458834_car_reser_vehicles" name="x_458834_car_reser_vehicles" sys_domain="global" view="Default view">1bf6fc3b2f03601029883e0ef699b633</sys_ui_form>
+            <sys_ui_section caption="Vehicle Properties" display_value="Vehicle Properties" name="x_458834_car_reser_vehicles" sys_domain="global" view="Default view">d7f6fc3b2f03601029883e0ef699b632</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-29 02:06:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_458834_car_reser_vehicles</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-29 02:06:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bf6fc3b2f03601029883e0ef699b633</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_458834_car_reser_vehicles</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Car Reservation" source="x_458834_car_reser">32eaff932f03201029883e0ef699b6e9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Reservation">32eaff932f03201029883e0ef699b6e9</sys_scope>
+            <sys_update_name>sys_ui_form_sections_1bf6fc3b2f03601029883e0ef699b633</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-29 02:06:35</sys_updated_on>
+            <sys_user/>
+            <u_hdd_model/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

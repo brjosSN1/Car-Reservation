@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Vehicles" max_length="40" name="x_458834_car_reser_vehicles" sizeclass="5" type="collection">
+        <element label="Color" max_length="20" name="color" type="string"/>
+        <element label="Date Purchased" max_length="40" name="date_purchased" type="glide_date"/>
+        <element label="Make" max_length="20" name="make" type="string"/>
+        <element label="Manufacturer" max_length="100" name="manufacturer" type="string"/>
+        <element label="milege" max_length="40" name="milege" type="integer"/>
+        <element label="Model" max_length="20" name="model" type="string"/>
+        <element attributes="format=none" label="Model Year" max_length="40" name="modelyear" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Vehicle Image" max_length="40" name="veh_image" type="user_image"/>
+        <element label="Vin Number" mandatory="true" max_length="20" name="vin_number" type="string" unique="true"/>
+    </element>
+</database>
