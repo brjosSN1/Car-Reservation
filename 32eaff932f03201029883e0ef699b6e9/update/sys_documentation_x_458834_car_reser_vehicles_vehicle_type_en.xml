@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="vehicle_type" label="Vehicle Type" language="en" table="x_458834_car_reser_vehicles">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>vehicle_type</element>
+            <help/>
+            <hint/>
+            <label>Vehicle Type</label>
+            <language>en</language>
+            <name>x_458834_car_reser_vehicles</name>
+            <plural>Vehicle Types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-31 02:36:31</sys_created_on>
+            <sys_id>4501df502f1b201029883e0ef699b685</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Vehicle Type</sys_name>
+            <sys_package display_value="Car Reservation" source="x_458834_car_reser">32eaff932f03201029883e0ef699b6e9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Car Reservation">32eaff932f03201029883e0ef699b6e9</sys_scope>
+            <sys_update_name>sys_documentation_x_458834_car_reser_vehicles_vehicle_type_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-31 02:36:31</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

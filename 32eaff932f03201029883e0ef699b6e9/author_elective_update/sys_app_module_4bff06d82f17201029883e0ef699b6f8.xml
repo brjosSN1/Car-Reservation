@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="City Car Loaner">b369fcbb2f03601029883e0ef699b689</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>vehicle requests</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_458834_car_reser_vehicle_requests</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_458834_car_reser.vehicle_requests_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-30 21:52:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4bff06d82f17201029883e0ef699b6f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vehicle requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Car Reservation" source="x_458834_car_reser">32eaff932f03201029883e0ef699b6e9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Reservation">32eaff932f03201029883e0ef699b6e9</sys_scope>
+        <sys_update_name>sys_app_module_4bff06d82f17201029883e0ef699b6f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-30 21:52:24</sys_updated_on>
+        <timeline_page/>
+        <title>vehicle requests</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Reservation">32eaff932f03201029883e0ef699b6e9</application>
+        <file_path/>
+        <instance_id>8ee0d731db8a7348b847ac44d496196c</instance_id>
+        <instance_name>dev87590</instance_name>
+        <name>sys_app_module_4bff06d82f17201029883e0ef699b6f8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="City Car Loaner">b369fcbb2f03601029883e0ef699b689</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>vehicle requests</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_458834_car_reser_vehicle_requests</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_458834_car_reser.vehicle_requests_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-03-30 21:52:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4bff06d82f17201029883e0ef699b6f8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>vehicle requests</sys_name><sys_overrides/><sys_package display_value="Car Reservation" source="x_458834_car_reser">32eaff932f03201029883e0ef699b6e9</sys_package><sys_policy/><sys_scope display_value="Car Reservation">32eaff932f03201029883e0ef699b6e9</sys_scope><sys_update_name>sys_app_module_4bff06d82f17201029883e0ef699b6f8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-03-30 21:52:24</sys_updated_on><timeline_page/><title>vehicle requests</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1373868686</payload_hash>
+        <record_name>vehicle requests</record_name>
+        <reverted_from/>
+        <source>1537851c2f13201029883e0ef699b63e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-30 21:52:24</sys_created_on>
+        <sys_id>0fff06d82f17201029883e0ef699b6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178851f9b270000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-30 21:52:24</sys_updated_on>
+        <type>Module</type>
+        <update_guid>47ff06d821172010a22f6468646dc4fa</update_guid>
+        <update_guid_history>47ff06d821172010a22f6468646dc4fa:1373868686</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="vehicle requests">b7e0961c2f17201029883e0ef699b6ed</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-30 21:56:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>71a1162007644ee49b17073d5f549604</sys_id>
+        <sys_metadata>4bff06d82f17201029883e0ef699b6f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vehicle requests</sys_name>
+        <sys_package display_value="Car Reservation" source="x_458834_car_reser">32eaff932f03201029883e0ef699b6e9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Reservation">32eaff932f03201029883e0ef699b6e9</sys_scope>
+        <sys_scope_delete display_value="">0fef4e9a5753439c8ca39300262b1ee4</sys_scope_delete>
+        <sys_update_name>sys_app_module_4bff06d82f17201029883e0ef699b6f8</sys_update_name>
+        <sys_update_version display_value="sys_app_module_4bff06d82f17201029883e0ef699b6f8">0fff06d82f17201029883e0ef699b6fa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-30 21:56:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

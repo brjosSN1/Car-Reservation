@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Vehicle Request" max_length="40" name="x_458834_car_reser_vehicle_request" sizeclass="2" type="collection">
+        <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
+        <element choice="3" label="Garage Depot" max_length="40" name="garage_depot" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Buenos Aires" value="ba"/>
+                <element inactive_on_update="false" label="London" value="london"/>
+                <element inactive_on_update="false" label="New York" value="ny"/>
+                <element inactive_on_update="false" label="Other" value="other"/>
+                <element inactive_on_update="false" label="Santa Clara" value="sc"/>
+                <element inactive_on_update="false" label="Singapore" value="singapore"/>
+                <element inactive_on_update="false" label="Sydney" value="sydney"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
+        <element choice="3" default="Requested" label="State" mandatory="true" max_length="40" name="request_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Checked Out" value="17"/>
+                <element inactive_on_update="false" label="Closed Complete" value="19"/>
+                <element inactive_on_update="false" label="Deployment Prep" value="15"/>
+                <element inactive_on_update="false" label="Post Deployment" value="18"/>
+                <element inactive_on_update="false" label="Ready for Pickup" value="16"/>
+                <element inactive_on_update="false" label="Requested" value="13"/>
+                <element inactive_on_update="false" label="Reserved" value="14"/>
+            </choice>
+        </element>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Vehicle type" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Compact" sequence="0" value="compact"/>
+                <element inactive_on_update="false" label="Truck" sequence="1" value="truck"/>
+                <element inactive_on_update="false" label="Pickup" sequence="2" value="pickup"/>
+                <element inactive_on_update="false" label="SUV" sequence="3" value="suv"/>
+                <element inactive_on_update="false" label="Sedan" sequence="4" value="sedan"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="City Hall" label="Location" max_length="40" name="u_choice_4" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Farmville" sequence="0" value="farmville"/>
+                <element inactive_on_update="false" label="City Hall" sequence="1" value="cityhall"/>
+                <element inactive_on_update="false" label="Central Park" sequence="2" value="central park"/>
+                <element inactive_on_update="false" label="Highland Park" sequence="3" value="highland park"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=number; make;license_plate,ref_ac_columns_search=true" label="Vehicle" max_length="32" name="vehicle" reference="x_458834_car_reser_vehicles" type="reference"/>
+    </element>
+</database>

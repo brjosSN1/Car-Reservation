@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>vehicle request</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>vehicle request</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">7a68b987db3200101d432946489619c4</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-30 22:01:32</sys_created_on>
+        <sys_id>49121a5c2f17201029883e0ef699b61b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vehicle request</sys_name>
+        <sys_package display_value="Car Reservation" source="x_458834_car_reser">32eaff932f03201029883e0ef699b6e9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Reservation">32eaff932f03201029883e0ef699b6e9</sys_scope>
+        <sys_update_name>sys_wizard_answer_49121a5c2f17201029883e0ef699b61b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-30 22:01:32</sys_updated_on>
+        <table/>
+        <target_url>x_458834_car_reser_vehicle_request.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

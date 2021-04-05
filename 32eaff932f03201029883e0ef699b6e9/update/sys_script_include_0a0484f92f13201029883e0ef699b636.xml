@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_458834_car_reser.SI_getVehicleType</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>SI_getVehicleType</name>
+        <script><![CDATA[var SI_getVehicleType = Class.create();
+
+SI_getVehicleType.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	vehicleType: function() {
+		var veh_Id = this.getParameter('sysparm_vehicleId');
+				
+		var gr = new GlideRecord('x_458834_car_reser_vehicles');
+		if (gr.get(veh_Id)) {
+			return gr.getValue('vehicle_type');
+		}
+		return ""; //Not found!
+		
+	},
+	
+    type: 'SI_getVehicleType'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-04 03:37:54</sys_created_on>
+        <sys_id>0a0484f92f13201029883e0ef699b636</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>SI_getVehicleType</sys_name>
+        <sys_package display_value="Car Reservation" source="x_458834_car_reser">32eaff932f03201029883e0ef699b6e9</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Car Reservation">32eaff932f03201029883e0ef699b6e9</sys_scope>
+        <sys_update_name>sys_script_include_0a0484f92f13201029883e0ef699b636</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-05 02:40:14</sys_updated_on>
+    </sys_script_include>
+</record_update>
