@@ -4,13 +4,13 @@
             <element>comments</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-31 21:32:43</sys_created_on>
-            <sys_id>b8159f682f17201029883e0ef699b644</sys_id>
+            <sys_created_on>2021-04-07 01:46:57</sys_created_on>
+            <sys_id>5bc803aa2fd7201029883e0ef699b6a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Log" display_value="Log" name="x_458834_car_reser_vehicle_request" sys_domain="global" view="Default view">ec159f682f17201029883e0ef699b61d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-31 21:32:43</sys_updated_on>
+            <sys_updated_on>2021-04-07 01:46:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,15 +18,29 @@
             <element>work_notes</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-31 21:32:43</sys_created_on>
-            <sys_id>3c159f682f17201029883e0ef699b644</sys_id>
+            <sys_created_on>2021-04-07 01:46:57</sys_created_on>
+            <sys_id>dbc803aa2fd7201029883e0ef699b6a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Log" display_value="Log" name="x_458834_car_reser_vehicle_request" sys_domain="global" view="Default view">ec159f682f17201029883e0ef699b61d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-31 21:32:43</sys_updated_on>
+            <sys_updated_on>2021-04-07 01:46:57</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-04-07 01:46:57</sys_created_on>
+            <sys_id>5fc803aa2fd7201029883e0ef699b6a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Log" display_value="Log" name="x_458834_car_reser_vehicle_request" sys_domain="global" view="Default view">ec159f682f17201029883e0ef699b61d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-04-07 01:46:57</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Log</caption>

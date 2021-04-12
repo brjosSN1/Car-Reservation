@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="Vehicle Request" max_length="40" name="x_458834_car_reser_vehicle_request" sizeclass="2" type="collection">
+    <element audit="true" extends="task" label="Vehicle Request" max_length="40" name="x_458834_car_reser_vehicle_request" sizeclass="6" type="collection">
         <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
         <element choice="3" label="Garage Depot" max_length="40" name="garage_depot" type="choice">
             <choice>
@@ -12,7 +12,10 @@
                 <element inactive_on_update="false" label="Sydney" value="sydney"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Overdue reminder" max_length="40" name="last_overdue_reminder" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="other" type="string"/>
+        <element label="Overdue count" max_length="40" name="overdue_count" type="integer"/>
+        <element label="Pick up reminder" max_length="40" name="pick_up_reminder" type="glide_date_time"/>
         <element choice="3" default="Requested" label="State" mandatory="true" max_length="40" name="request_state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Checked Out" value="17"/>
@@ -24,6 +27,7 @@
                 <element inactive_on_update="false" label="Reserved" value="14"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Return Reminder" max_length="40" name="return_reminder" type="glide_date_time"/>
         <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Vehicle type" max_length="40" name="u_choice_3" type="string">
             <choice>
@@ -42,6 +46,7 @@
                 <element inactive_on_update="false" label="Highland Park" sequence="3" value="highland park"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
         <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=number; make;license_plate,ref_ac_columns_search=true" label="Vehicle" max_length="32" name="vehicle" reference="x_458834_car_reser_vehicles" type="reference"/>
     </element>

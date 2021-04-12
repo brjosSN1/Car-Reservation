@@ -17,16 +17,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-31 21:32:42</sys_created_on>
+            <sys_created_on>2021-04-12 00:40:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e4159f682f17201029883e0ef699b620</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>f0896c942fa3201029883e0ef699b67f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_458834_car_reser_vehicle_request" name="x_458834_car_reser_vehicle_request" sys_domain="global" view="Default view">38739e9c2f17201029883e0ef699b62f</sys_ui_form>
-            <sys_ui_section caption="Log" display_value="Log" name="x_458834_car_reser_vehicle_request" sys_domain="global" view="Default view">ec159f682f17201029883e0ef699b61d</sys_ui_section>
+            <sys_ui_section caption="Reminders" display_value="Reminders" name="x_458834_car_reser_vehicle_request" sys_domain="global" view="Default view">e8892c942fa3201029883e0ef699b6e4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-31 21:32:42</sys_updated_on>
+            <sys_updated_on>2021-04-12 02:39:45</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
@@ -41,6 +41,20 @@
             <sys_ui_section caption="Statistics" display_value="Statistics" name="x_458834_car_reser_vehicle_request" sys_domain="global" view="Default view">81b597a82f17201029883e0ef699b691</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2021-03-31 21:35:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-31 21:32:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4159f682f17201029883e0ef699b620</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_458834_car_reser_vehicle_request" name="x_458834_car_reser_vehicle_request" sys_domain="global" view="Default view">38739e9c2f17201029883e0ef699b62f</sys_ui_form>
+            <sys_ui_section caption="Log" display_value="Log" name="x_458834_car_reser_vehicle_request" sys_domain="global" view="Default view">ec159f682f17201029883e0ef699b61d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-04-12 02:39:45</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_458834_car_reser_vehicle_request</name>
