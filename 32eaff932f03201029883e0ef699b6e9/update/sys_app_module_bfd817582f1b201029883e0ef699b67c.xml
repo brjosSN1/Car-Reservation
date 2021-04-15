@@ -15,7 +15,7 @@
         <name>x_458834_car_reser_vehicle_request</name>
         <order>202</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>com.glideapp.servicecatalog_cat_item_view.do%3Fv%3D1%26sysparm_id%3Da51af2c12fa3201029883e0ef699b64f</query>
         <report/>
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -24,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bfd817582f1b201029883e0ef699b67c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>New</sys_name>
         <sys_overrides/>
         <sys_package display_value="Car Reservation" source="x_458834_car_reser">32eaff932f03201029883e0ef699b6e9</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Car Reservation">32eaff932f03201029883e0ef699b6e9</sys_scope>
         <sys_update_name>sys_app_module_bfd817582f1b201029883e0ef699b67c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-31 03:14:50</sys_updated_on>
+        <sys_updated_on>2021-04-15 18:26:20</sys_updated_on>
         <timeline_page/>
         <title>New</title>
         <uncancelable>false</uncancelable>

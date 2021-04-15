@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Vehicle Request" max_length="40" name="x_458834_car_reser_vehicle_request" sizeclass="6" type="collection">
+    <element audit="true" extends="task" label="Vehicle Request" max_length="40" name="x_458834_car_reser_vehicle_request" sizeclass="9" type="collection">
         <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date"/>
         <element choice="3" label="Garage Depot" max_length="40" name="garage_depot" type="choice">
             <choice>
@@ -40,10 +40,20 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="City Hall" label="Location" max_length="40" name="u_choice_4" type="string">
             <choice>
-                <element inactive_on_update="false" label="Farmville" sequence="0" value="farmville"/>
-                <element inactive_on_update="false" label="City Hall" sequence="1" value="cityhall"/>
-                <element inactive_on_update="false" label="Central Park" sequence="2" value="central park"/>
-                <element inactive_on_update="false" label="Highland Park" sequence="3" value="highland park"/>
+                <element inactive="true" inactive_on_update="true" label="Farmville" sequence="0" value="farmville"/>
+                <element inactive_on_update="false" label="Texas" sequence="0" value="Texas"/>
+                <element inactive="true" inactive_on_update="true" label="City Hall" sequence="1" value="cityhall"/>
+                <element inactive_on_update="false" label="Georgia" sequence="1" value="Georgia"/>
+                <element inactive_on_update="false" label="Alabama" sequence="2" value="Alabama"/>
+                <element inactive="true" inactive_on_update="true" label="Central Park" sequence="2" value="central park"/>
+                <element inactive_on_update="false" label="Florida" sequence="3" value="Florida"/>
+                <element inactive="true" inactive_on_update="true" label="Highland Park" sequence="3" value="highland park"/>
+                <element inactive_on_update="false" label="California" sequence="4" value="California"/>
+                <element inactive_on_update="false" label="Malibu" sequence="5" value="Malibu"/>
+                <element inactive_on_update="false" label="Wyoming" sequence="6" value="Wyoming"/>
+                <element inactive_on_update="false" label="Newyork" sequence="7" value="Newyork"/>
+                <element inactive_on_update="false" label="New Jersey" sequence="8" value="New Jersey"/>
+                <element inactive_on_update="false" label="Washington DC" sequence="9" value="Washington DC"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="New Date/Time" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>

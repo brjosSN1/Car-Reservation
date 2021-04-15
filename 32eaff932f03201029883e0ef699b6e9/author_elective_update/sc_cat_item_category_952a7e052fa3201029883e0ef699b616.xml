@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Vehicle Request">552ab2c12fa3201029883e0ef699b6a2</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 19:07:43</sys_created_on>
+        <sys_id>952a7e052fa3201029883e0ef699b616</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Vehicle Request</sys_name>
+        <sys_package display_value="Car Reservation" source="x_458834_car_reser">32eaff932f03201029883e0ef699b6e9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Car Reservation">32eaff932f03201029883e0ef699b6e9</sys_scope>
+        <sys_update_name>sc_cat_item_category_952a7e052fa3201029883e0ef699b616</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 19:07:43</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Car Reservation">32eaff932f03201029883e0ef699b6e9</application>
+        <file_path/>
+        <instance_id>8ee0d731db8a7348b847ac44d496196c</instance_id>
+        <instance_name>dev87590</instance_name>
+        <name>sc_cat_item_category_952a7e052fa3201029883e0ef699b616</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Vehicle Request">552ab2c12fa3201029883e0ef699b6a2</sc_cat_item><sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-14 19:07:43</sys_created_on><sys_id>952a7e052fa3201029883e0ef699b616</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Can We Help You?.Vehicle Request</sys_name><sys_package display_value="Car Reservation" source="x_458834_car_reser">32eaff932f03201029883e0ef699b6e9</sys_package><sys_policy/><sys_scope display_value="Car Reservation">32eaff932f03201029883e0ef699b6e9</sys_scope><sys_update_name>sc_cat_item_category_952a7e052fa3201029883e0ef699b616</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-14 19:07:43</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-976458077</payload_hash>
+        <record_name>Can We Help You?.Vehicle Request</record_name>
+        <reverted_from/>
+        <source>1537851c2f13201029883e0ef699b63e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 19:07:43</sys_created_on>
+        <sys_id>112a7e052fa3201029883e0ef699b619</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178d1c83bb50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 19:07:43</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>592a7e0578a3201008597ca500c83118</update_guid>
+        <update_guid_history>592a7e0578a3201008597ca500c83118:-976458077</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.Vehicle Request">d6e58b8d2fa3201029883e0ef699b640</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-14 19:59:07</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0bc3590f7e6a48ca85b4cd3460b4ea84</sys_id>
+        <sys_metadata>952a7e052fa3201029883e0ef699b616</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.Vehicle Request</sys_name>
+        <sys_package display_value="Car Reservation" source="x_458834_car_reser">32eaff932f03201029883e0ef699b6e9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Car Reservation">32eaff932f03201029883e0ef699b6e9</sys_scope>
+        <sys_scope_delete display_value="">0fef4e9a5753439c8ca39300262b1ee4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_952a7e052fa3201029883e0ef699b616</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_952a7e052fa3201029883e0ef699b616">112a7e052fa3201029883e0ef699b619</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-14 19:59:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
